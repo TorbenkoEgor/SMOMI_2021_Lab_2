@@ -38,7 +38,7 @@ build_model:
 build_model
 
     inputs = tf.keras.Input(shape=(RESIZE_TO, RESIZE_TO, 3))
-    x = tf.keras.applications.EfficientNetB0(include_top=True, weights=None, classes=NUM_CLASSES)(inputs)
+    x = tf.keras.applications.EfficientNetB0(include_top=True, weights='imagenet', classes=NUM_CLASSES)(inputs)
     x = tf.keras.layers.Flatten()(x)
     outputs = tf.keras.layers.Dense(NUM_CLASSES, activation = tf.keras.activations.softmax)(x)
     return tf.keras.Model(inputs=inputs, outputs=outputs)
@@ -76,7 +76,7 @@ train_enb0_imagenet_2.py
 Модель использует EfficientNetB0 с весами предобученной сети на ImageNet. Learning rate = 0.00001.
 
     inputs = tf.keras.Input(shape=(RESIZE_TO, RESIZE_TO, 3))
-    x = tf.keras.applications.EfficientNetB0(include_top=True, weights=None, classes=NUM_CLASSES)(inputs)
+    x = tf.keras.applications.EfficientNetB0(include_top=True, weights='imagenet', classes=NUM_CLASSES)(inputs)
     x = tf.keras.layers.Flatten()(x)
     outputs = tf.keras.layers.Dense(NUM_CLASSES, activation = tf.keras.activations.softmax)(x)
     return tf.keras.Model(inputs=inputs, outputs=outputs)
@@ -106,7 +106,7 @@ train_enb0_imagenet_3.py
 build_model
 
     inputs = tf.keras.Input(shape=(RESIZE_TO, RESIZE_TO, 3))
-    x = tf.keras.applications.EfficientNetB0(include_top=True, weights=None, classes=NUM_CLASSES)(inputs)
+    x = tf.keras.applications.EfficientNetB0(include_top=True, weights='imagenet', classes=NUM_CLASSES)(inputs)
     x = tf.keras.layers.Flatten()(x)
     outputs = tf.keras.layers.Dense(NUM_CLASSES, activation = tf.keras.activations.softmax)(x)
     return tf.keras.Model(inputs=inputs, outputs=outputs)
