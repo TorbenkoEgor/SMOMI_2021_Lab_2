@@ -14,15 +14,15 @@ build_model:
 
 Цвета
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train1_color.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train1_color.png)
 
 Метрика точности
  
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train1_acc.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train1_acc.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train1_loss.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train1_loss.png)
 
 # Вывод
 
@@ -46,15 +46,15 @@ build_model
 
 Цвета
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train2_color.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train2_color.png)
 
 Метрики точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train2_acc.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train2_acc.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train2_loss.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train2_loss.png)
 
 # Вывод 
 
@@ -83,15 +83,15 @@ train_enb0_imagenet_2.py
 
 Цвета
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train3_color.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train3_color.png)
 
 Метрики точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train3_acc.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train3_acc.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train3_loss.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train3_loss.png)
 
 Вывод
 
@@ -113,15 +113,15 @@ build_model
 
 Цвета
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train4_color.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train4_color.png)
 
 Метрики точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train4_acc.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train4_acc.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_1/blob/main/graphs/train4_loss.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_2021_Lab_2/blob/main/graphs/train4_loss.png)
 
 Вывод
 
